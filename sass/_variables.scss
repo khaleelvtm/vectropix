@@ -41,12 +41,13 @@ $sm-font-size: $base-font-size * 0.75;
 $lg-font-size: $base-font-size * 1.5;
 $xl-font-size: $base-font-size * 2;
 
-$font-one: "IBM Plex Sans", sans-serif;
-$font-two: "Berkshire Swash", cursive;
+$font-one: "Montserrat", sans-serif;
 $font-weight: (
     "light": 300,
     "regular": 400,
     "medium": 500,
     "semiBold": 600,
     "bold": 700,
+    "extraBold": 800,
+    "black": 900,
 );
