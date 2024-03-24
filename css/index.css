@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css");
+@import url("https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css");
 *,
 *:before,
 *:after {
@@ -2157,6 +2157,55 @@ header .header-control nav ul li a:hover::after {
 }
 
 /*-----------------------------
+ - Footer styles
+-----------------------------*/
+footer {
+  background-color: #5B5B5B;
+  color: white;
+  padding-top: 4.6875rem;
+}
+footer .head {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+footer .footer-nav li {
+  margin-bottom: 0.75rem;
+}
+footer .footer-nav li:last-child {
+  margin-bottom: 0;
+}
+footer .footer-nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+footer .footer-contact {
+  margin-bottom: 5rem;
+}
+footer .footer-contact li {
+  margin-bottom: 0.75rem;
+  font-size: 0.75rem;
+}
+footer .footer-contact li:last-child {
+  margin-bottom: 0;
+}
+footer .footer-social-media {
+  display: flex;
+  gap: 1.5625rem;
+}
+footer .footer-social-media li a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+footer .copyright {
+  font-size: 0.625rem;
+  margin-top: 6.25rem;
+  margin-bottom: 2.5rem;
+}
+
+/*-----------------------------
  - General styles
 -----------------------------*/
 .title {
@@ -2167,6 +2216,7 @@ header .header-control nav ul li a:hover::after {
 
 .heading {
   margin-bottom: 2.5rem;
+  font-size: 3.75rem;
 }
 
 .text {

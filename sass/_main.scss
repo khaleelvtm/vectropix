@@ -74,6 +74,58 @@ header {
         margin-top: 3.75rem;
     }
 }
+/*-----------------------------
+ - Footer styles
+-----------------------------*/
+footer {
+    background-color: $s_light;
+    color: map-get($colors, 'white');
+    padding-top: 4.6875rem;
+    .head {
+        font-size: 0.875rem;
+        font-weight: map-get($font-weight, 'semiBold' );
+        margin-bottom: 0.75rem;
+    }
+    .footer-nav {
+        li {
+            margin-bottom: 0.75rem;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            a {
+                color: map-get($colors, 'white');
+                text-decoration: none;
+                font-size: 0.75rem;
+            }
+        }
+    }
+    .footer-contact {
+        margin-bottom: 5rem;
+        li {
+            margin-bottom: 0.75rem;
+            font-size: 0.75rem;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .footer-social-media {
+        display: flex;
+        gap: 1.5625rem;
+        li {
+            a {
+                font-size: 1.5rem;
+                color: map-get($colors, 'white');
+                text-decoration: none;
+            }
+        }
+    }
+    .copyright {
+        font-size: 0.625rem;
+        margin-top: 6.25rem;
+        margin-bottom: 2.5rem;
+    }
+}
 
 /*-----------------------------
  - General styles
@@ -85,6 +137,7 @@ header {
 }
 .heading {
     margin-bottom: 2.5rem;
+    font-size: 3.75rem;
 }
 .text {
     max-width: 360px;
